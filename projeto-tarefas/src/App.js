@@ -43,7 +43,7 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    /preventDefault = impede que o evento padrão ocorra/
+    // /preventDefault = impede que o evento padrão ocorra
 
     const todo = {
       id: Math.random(),
@@ -65,7 +65,7 @@ function App() {
       },
     });
     // /fetch = busca/
-    // /stringify = converte os valores para uma string json. Esse valor pode ser substituido especificando a função replacer/
+    // /stringify = converte os valores para uma string json. Esse valor pode ser substituido especificando a função replacer
 
     setTodos((prevState) => [...prevState,todo]);
 
